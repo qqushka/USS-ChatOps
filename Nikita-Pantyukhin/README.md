@@ -27,7 +27,13 @@ A graph needs to be created based on the text from the submitted documents for u
       - The sentence is divided in half taking into account punctuation until the parts satisfy the set chunk size.
 3) The resulting text is sent to LLM to create a graph.
 
-# Adding data to the graph:
+**Warning:**
+
+**The text summarization model runs locally. To run, you need a video card with CUDA support and install the following components:**
+1) [CUDA Toolkit 12.4 (Version 11)](https://developer.nvidia.com/cuda-downloads?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_network);
+2) [cuDNN 9.0.0 (Version 10)](https://developer.nvidia.com/cudnn-downloads?target_os=Windows&target_arch=x86_64&target_version=10&target_type=exe_local).
+
+## Adding data to the graph:
 
 1) The "CONTENT" relation is created:
 [Organization] => [Document_number]
