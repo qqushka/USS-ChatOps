@@ -1,6 +1,5 @@
-# Setting up the environment
+# Explanation
 
-For the project to work correctly, you must install the following components:
-1) [Miniconda (Python 3.12)](https://docs.anaconda.com/miniconda/miniconda-other-installer-links/);
-2) Go to the installed `Anaconda Prompt (miniconda3)` and use the command: `conda env create -f path/to/ChatOpsEnvironment.yml`;
-3) Activate environment `conda activate ChatOps`.
+Project idea - Create an advanced version of RAG for using LLM.
+
+RAG contains various regulatory documents of the Russian Federation. The names of directories in the main branch determine the belonging of their contents to the project participants.
