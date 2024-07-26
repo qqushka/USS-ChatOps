@@ -7,6 +7,13 @@ A graph needs to be created based on the text from the submitted documents for u
 
 **Main task**: Use the LangChain framework (`langchain_experimental.graph_transformers`). Correctly pass text from documents through LLM, fitting into the constraints of the model context window.
 
+# Setting up the environment
+
+For the project to work correctly, you must install the following components:
+1) [Miniconda (Python 3.12)](https://docs.anaconda.com/miniconda/miniconda-other-installer-links/);
+2) Go to the installed `Anaconda Prompt (miniconda3)` and use the command: `conda env create -f path/to/ChatOpsEnvironment.yml`;
+3) Activate environment `conda activate ChatOps`.
+
 # General problems
 1) Identifying documents;
 2) Documents have a lot of noise that needs to be removed;
